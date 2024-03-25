@@ -1,0 +1,3 @@
+## Projects
+
+Mid-Square Generator
