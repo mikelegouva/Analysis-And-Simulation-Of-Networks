@@ -1,6 +1,6 @@
 # Mid-Square Pseudo-Random Number Generator
 
-This Python script implements the Mid-Square method for generating pseudo-random numbers, designed by Michail Gouvalaris on January 24th, 2024. The method involves squaring an initial number, extracting the middle digits to form a new number, and repeating this process to generate a sequence of numbers. This implementation not only generates these numbers but also prints each step's result, showcasing the generated number along with its corresponding decimal value within the range [0,1].
+This Python script implements the Mid-Square method for generating pseudo-random numbers, designed by Michail Gouvalaris on March 24th, 2024. The method involves squaring an initial number, extracting the middle digits to form a new number, and repeating this process to generate a sequence of numbers. This implementation not only generates these numbers but also prints each step's result, showcasing the generated number along with its corresponding decimal value within the range [0,1].
 
 ## Background
 
