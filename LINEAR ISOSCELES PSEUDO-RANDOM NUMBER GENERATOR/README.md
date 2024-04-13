@@ -1,17 +1,23 @@
 # Linear Congruential Generator
 
-## Project Description
+This repository contains a Python implementation of a linear congruential generator (LCG) for generating pseudo-random numbers. The code is designed by Michail Gouvalaris and is intended for academic use at the Department of Informatics and Telecommunications, University of Ioannina.
 
-This project implements a Linear Congruential Generator (LCG) for generating pseudo-random numbers. The LCG is a type of finite pseudorandom number generator which is one of the oldest and best-known pseudorandom number generator algorithms. The purpose of this project is to illustrate how LCG works and to explore its period with different parameters.
+## Overview
 
-## Features
-
-- Generates a sequence of pseudo-random numbers using the linear congruential method.
-- Determines the period of the sequence, i.e., how long it takes for the sequence to start repeating.
-- Easy to modify parameters for experimentation with different types of generators.
+The Python code implements a linear congruential generator (LCG) function to produce pseudo-random numbers. It utilizes specified parameters: modulus (m), multiplier (a), increment (c), and initial seed (Z0). The function generates numbers until it detects a repeat, thus establishing the period of the sequence. This demonstrates how variations in the parameters affect the randomness and period of the generated numbers.
 
 ## Installation
 
-No installation is necessary beyond Python itself. To run the program, clone this repository and execute the Python script.
+To run this code, ensure you have Python 3.12 or later installed. You can download Python from [python.org](https://www.python.org/downloads/).
 
+## Usage
 
+The code can be run directly if saved as a `.py` file. It includes two parts:
+
+- **Part A**: Uses the parameters m = 16, a = 9, c = 5, Z0 = 21
+- **Part B**: Uses the parameters m = 16, a = 11, c = 0, Z0 = 21
+
+To execute, simply run the script and it will print out the pseudo-random numbers generated along with the period of the generator for each part.
+
+```bash
+python lcg.py
