@@ -1,8 +1,7 @@
-<<<<<<< HEAD
+
 #This code was designed by Michail Gouvalaris on March 25th 2024.
-=======
-#This code was designed by Michail Gouvalaris on March 24th 2024.
->>>>>>> 7201ed01973e81969359bf59f24f10109e88772a
+
+
 #It is intended for academic use at the Dept. of Informatics and Telecommunication of University of Ioannina.
 
 #This code was designed and compiled at Python 3.12 .
