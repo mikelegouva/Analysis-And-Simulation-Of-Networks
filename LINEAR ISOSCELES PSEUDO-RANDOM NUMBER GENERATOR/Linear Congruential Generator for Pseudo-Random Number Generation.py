@@ -43,3 +43,4 @@ Z0_B = 21
 numbers_B, period_B = linear_congruential_generator(m_B, a_B, c_B, Z0_B)
 print("Part B: Generated numbers:", numbers_B)
 print("Part B: Period of the generator:", period_B)
+#
